@@ -1,0 +1,23 @@
+# Directories from Visual Studio / Visual Studio Code / Dotnet
+.vs/
+.vscode/
+bin/
+obj/
+Release/
+Debug/
+SMAPI/
+
+# Build outputs and or random garbage data
+*.obj
+*.bin
+*.out
+*.ilk
+*.pdb
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+
+# Visual Studio Solution, pretty sure this isn't required
+*.sln

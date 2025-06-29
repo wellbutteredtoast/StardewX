@@ -1,0 +1,10 @@
+{
+  "Name": "StardewX",
+  "Author": "cosmicnerdgirl",
+  "Version": "1.0.0",
+  "Description": "A massive, comprehensive content mod for Stardew Valley.",
+  "UniqueID": "cosmicnerdgirl.stardewx",
+  "EntryDll": "StardewX.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
