@@ -9,6 +9,22 @@
 
 <img src="https://stardewvalleywiki.com/mediawiki/images/6/67/Void_Chicken.png" style="padding-left: 20px;" alt="Void Chicken"><br>StardewX -- a **massive** expansion to Stardew Valley 1.6. StardewX is a comprehensive mod that adds a large amount of *new* content while making edits to pre-existing vanilla content. For a **comprehensive** overview into what was changed from the vanilla games -- I will direct you to the `docs` directory which is effectively a wiki for this project. It covers everything that is changed, what is added, all that important stuff.
 
+# How is the Repo Organized?
+
+Pretty easily, which is nice. About 99% of all C# code will be inside the `src` directory. The `ModEntry.cs` file will remain here in the root of the directory alongside the manifest. The JSON for the Content Patcher will be in stored in `[CP] StardewX` - which is just all the pure JSON data and assets. The two mods depend on each other, you can't have one without the other without hard crashing. The Content Patcher portion of this repo has its own README and information on how to help out!
+
+# Notice: Multiplayer
+
+This mod is 100% **not compatible** with any multiplayer play. Playing with other people is **not recommended** at all, do so at your own risk.
+
+# Notice: System Requirements
+
+This mod is incredibly heavy. Having hundreds of assets, several massive changes to the core of the game, multiple dependencies, and an incredibly large amount of JSON data. This mod requires that users have a large amount of RAM available for use. I would recommend around 16GB of RAM as the perfect amount. 8GB is doable but you would likely experience performance losses.
+
+# Notice: Lewd Content
+
+Yeah, this mod features large amounts of lewd content on top of everything else. This is optional, disabled by default. If you want lewd content, enable it in the GenericModConfigMenu menu entry. By enabling lewd content, you declare that you're over 18 and are 100% okay with seeing mature and sexual content and will not get offended by such material.
+
 ## How can I build StardewX?
 
 I recommend you don't. Usually my commits are not well tested initally. I recommend you go to the latest **[Release](https://github.com/wellbutteredtoast/stardewx/releases)** of the project and install it into your game. However if you *do* want to build this on your own, it's not too difficult.

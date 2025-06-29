@@ -1,14 +1,13 @@
 {
-  "Name": "StardewX",
+  "Name": "StardewX ContentPack",
   "Author": "cosmicnerdgirl",
   "Version": "1.0.0",
-  "Description": "A massive, comprehensive content mod for Stardew Valley.",
-  "UniqueID": "cosmicnerdgirl.stardewx",
-  "EntryDll": "StardewX.dll",
-  "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [
-
-  ],
+  "Description": "Content Data for StardewX. Required by StardewX",
+  "UniqueID": "cosmicnerdgirl.stardewxcontent",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
   "Dependencies": [
   {
     "UniqueID": "Pathoschild.ContentPatcher",
