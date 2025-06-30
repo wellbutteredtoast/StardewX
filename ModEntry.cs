@@ -6,8 +6,10 @@
 /// absolutely do not want to deal with at all.
 
 
-// Disables "Using directive is unnecessary." warning.
+// Disables "Using directive is unnecessary" warning.
 #pragma warning disable IDE0005
+// Disables "functionname(args) is unused" warning.
+#pragma warning disable IDE0051
 
 using System;
 using Microsoft.Xna.Framework;
@@ -22,7 +24,12 @@ namespace StardewX
     {
         public override void Entry(IModHelper helper)
         {
-            
+
+        }
+
+        private static void DummyFunc()
+        {
+
         }
     }
 }

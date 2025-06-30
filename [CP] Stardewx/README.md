@@ -35,3 +35,5 @@ $u   = surprise!
 
 %% = %
 ```
+
+Due to usage of farmer related `%pronoun` tags as well as interacting with a lot of 1.6 content, backward compatibility with 1.5 and older versions is not expected or guaranteed.

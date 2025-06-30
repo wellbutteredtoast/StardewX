@@ -2,7 +2,7 @@
   "Name": "StardewX ContentPack",
   "Author": "cosmicnerdgirl",
   "Version": "1.0.0",
-  "Description": "Content Data for StardewX. Required by StardewX",
+  "Description": "Content Data for StardewX. Required by the StardewX DLL mod for complete functionality.",
   "UniqueID": "cosmicnerdgirl.stardewxcontent",
   "MinimumApiVersion": "3.0.0",
   "ContentPackFor": {
@@ -56,6 +56,10 @@
   {
     "UniqueID": "CJBok.CheatsMenu",
     "IsRequired": false
+  },
+  {
+    "UniqueID": "cosmicnerdgirl.stardewx",
+    "IsRequired": true
   }
 ]
 

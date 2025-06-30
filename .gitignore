@@ -1,4 +1,4 @@
-# Directories from Visual Studio / Visual Studio Code / Dotnet
+# Directories from Visual Studio / Visual Studio Code / Dotnet / Random Stuff
 .vs/
 .vscode/
 bin/
@@ -6,6 +6,7 @@ obj/
 Release/
 Debug/
 SMAPI/
+Intermediate/
 
 # Build outputs and or random garbage data
 *.obj
